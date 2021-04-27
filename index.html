@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/ee30c4883a.js" crossorigin="anonymous"></script>
+    <title>Landing page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__inner">
+          <a href="index.html">
+            <img src="./images/logo.png" alt="" />
+          </a>
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">FAQS</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Home it works</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Contact us</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link btn btn--shadow btn--rounded">Login</a>
+              </li>
+            </ul>
+          </nav>
+
+          <label for="nav__mobile__input" class="toggle-icon"><i class="fas fa-bars"></i></label>
+
+          <input type="checkbox" class="nav__input" id="nav__mobile__input" />
+
+          <label for="nav__mobile__input" class="header__nav-overlay"></label>
+
+          <nav class="header__menu-mobile">
+            <label for="nav__mobile__input" class="header__menu-mobile-close">
+              <i class="fas fa-times"></i>
+            </label>
+            <ul class="header__menu-mobile-list">
+              <li class="header__menu-mobile-item">
+                <a href="#" class="header__menu-mobile-link"><i class="far fa-bell"></i> FAQs</a>
+              </li>
+              <li class="header__menu-mobile-item">
+                <a href="#" class="header__menu-mobile-link"
+                  ><i class="fas fa-hand-holding-usd"></i> Home it works</a
+                >
+              </li>
+              <li class="header__menu-mobile-item">
+                <a href="#" class="header__menu-mobile-link"
+                  ><i class="fas fa-book"></i> Contact us</a
+                >
+              </li>
+              <li class="header__menu-mobile-item">
+                <a href="#" class="header__menu-mobile-link"
+                  ><i class="fas fa-sign-in-alt"></i> Login</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="feature">
+        <div class="container">
+          <div class="feature__item">
+            <div class="feature__info">
+              <h1 class="feature__info-title">The outdoor environment is age-appropriate</h1>
+              <p class="feature__info-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam numquam culpa dolores
+                quisquam eos eaque iste est, tempore iure. Natus!
+              </p>
+            </div>
+            <div class="feature-img">
+              <div class="feature-img--item">
+                <img src="./images/Mode=Light.png" alt="" />
+              </div>
+              <div class="feature-img--item">
+                <img src="./images/Android.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container footer__inner">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link btn btn--border btn--act">
+                <i class="fab fa-apple"></i>
+                <div class="footer__menu-link--desc">
+                  <p>Download on the</p>
+                  <h3>App Store</h3>
+                </div>
+              </a>
+              <h2 class="footer__menu-title">SoluToday IOS</h2>
+              <p class="footer__menu-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eum aut quae
+                debitis id, autem quibusdam assumenda facere praesentium voluptatem.
+              </p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link btn btn--border btn--act">
+                <i class="fab fa-google-play"></i>
+                <div class="footer__menu-link--desc">
+                  <p>GET IT ON</p>
+                  <h3>CH PLAY</h3>
+                </div>
+              </a>
+              <h2 class="footer__menu-title">SoluToday Android</h2>
+              <p class="footer__menu-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eum aut quae
+                debitis id, autem quibusdam assumenda facere praesentium voluptatem.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
