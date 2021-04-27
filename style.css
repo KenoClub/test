@@ -215,7 +215,12 @@ a {
   width: 37.5rem;
   height: 65.5rem;
   border-radius: 15px;
+}
+.feature-img--item:first-child {
   box-shadow: 0px 0px 18px 0px #f7ce68;
+}
+.feature-img--item:last-child {
+  box-shadow: 0px 0px 18px 0px #7b6ef0;
 }
 
 .footer {
