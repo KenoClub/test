@@ -363,5 +363,13 @@ a {
     font-size: 0.8rem;
   }
 }
+@media screen and (max-width: 366px) {
+  .footer__menu-link--desc h3 {
+    font-size: 1.3rem;
+  }
+  .footer__menu-link--desc p {
+    font-size: 0.8rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
