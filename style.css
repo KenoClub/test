@@ -323,7 +323,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .wrapper::before {
-    top: 57%;
+    top: 63%;
     height: 2500px;
     width: 2500px;
   }
@@ -366,7 +366,7 @@ a {
     font-size: 1.4rem;
   }
   .footer__menu-desc {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .footer__menu-link .fab {
     font-size: 2.2rem;
