@@ -48,7 +48,7 @@ a {
     background-image: linear-gradient(-45deg, white 0%, white 100%);
     transition: 0.5s ease-in-out;
     border-radius: 50%;
-    z-index: 2;
+    z-index: 20;
   }
 }
 
@@ -216,20 +216,39 @@ a {
     display: none;
     animation: fadeIn linear 0.2s;
   }
+  &-logo {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .feature {
-  margin-top: 9.6rem;
+  position: relative;
+  padding-top: 9.6rem;
   text-align: center;
   height: 80rem;
   overflow: hidden;
-  background-image: linear-gradient(
-    0deg,
-    rgb(251, 171, 126) 0%,
-    rgb(247, 206, 104) 50%,
-    rgb(255, 255, 255) 100%
-  );
+  // background-color: #f44c4c;
+  background: rgb(254, 254, 254);
+  background: linear-gradient(180deg, rgba(254, 254, 254, 1) 10%, rgba(244, 76, 76, 1) 100%);
+  z-index: 14;
+  // background-image: linear-gradient(
+  //   0deg,
+  //   rgb(251, 171, 126) 0%,
+  //   rgb(247, 206, 104) 50%,
+  //   rgb(255, 255, 255) 100%
+  // );
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 15;
+  }
   &__item {
+    position: relative;
+    z-index: 16;
   }
   &__info {
     &-title {
@@ -263,7 +282,7 @@ a {
 
 .footer {
   position: relative;
-  z-index: 4;
+  z-index: 21;
   &__menu {
     &-list {
       @include flex(center, space-around);
@@ -330,7 +349,6 @@ a {
   }
 
   .feature {
-    margin-top: 8rem;
     &__info {
       &-title {
         width: 80%;
@@ -341,8 +359,8 @@ a {
     }
     &-img {
       &--item {
-        width: auto;
-        height: auto;
+        // width: auto;
+        // height: auto;
       }
     }
   }
@@ -370,7 +388,7 @@ a {
   }
 
   .feature {
-    height: 38rem;
+    height: 55rem;
     &__info {
       margin-top: 2.5rem;
       &-title {
