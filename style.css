@@ -91,7 +91,7 @@ a {
 }
 
 .header {
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   position: fixed;
   width: 100%;
   background-color: white;
@@ -114,7 +114,7 @@ a {
   flex-direction: row;
 }
 .header__menu-item {
-  margin-left: 5rem;
+  margin-left: 4.8rem;
 }
 .header__menu-link {
   font-size: 1.6rem;
@@ -136,25 +136,40 @@ a {
 }
 .header__menu-mobile-close {
   position: absolute;
-  width: 2rem;
-  height: 2rem;
-  top: 2rem;
-  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  top: 1.6rem;
+  right: 1.6rem;
+  cursor: pointer;
 }
 .header__menu-mobile-close .fas {
   font-size: 2rem;
   cursor: pointer;
 }
 .header__menu-mobile-item {
-  margin-top: 2rem;
-  margin-left: 1rem;
+  margin-top: 1.6rem;
+  margin-left: 0.8rem;
   font-size: 1.8rem;
   font-weight: 300;
 }
+.header__menu-mobile-item:last-child p {
+  width: 100%;
+  text-align: center;
+}
 .header__menu-mobile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
   font-size: 1.6rem;
   font-weight: 400;
   color: #333;
+}
+.header__menu-mobile-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 0.8rem;
 }
 .header .nav__input:checked ~ .header__menu-mobile {
   transform: translateX(0);
@@ -168,6 +183,8 @@ a {
 }
 .header .toggle-icon {
   display: none;
+  width: 3rem;
+  height: 3rem;
 }
 @keyframes fadeIn {
   from {
@@ -189,7 +206,7 @@ a {
 }
 
 .feature {
-  margin-top: 12rem;
+  margin-top: 9.6rem;
   text-align: center;
   height: 80rem;
   overflow: hidden;
@@ -208,7 +225,7 @@ a {
   margin: 0 auto;
   width: 50%;
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 .feature-img {
   margin: 0 auto;
@@ -272,7 +289,7 @@ a {
 }
 .footer__menu-title {
   font-weight: 600;
-  margin: 2rem 0;
+  margin: 1.6rem 0;
   color: #257eba;
 }
 .footer__menu-desc {
