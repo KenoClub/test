@@ -333,6 +333,9 @@ a {
   .feature {
     height: 38rem;
   }
+  .feature__info {
+    margin-top: 2.5rem;
+  }
   .feature__info-title {
     font-size: 2.2rem;
     width: 100%;
@@ -340,6 +343,9 @@ a {
   .feature__info-desc {
     font-size: 1.4rem;
     line-height: 1.4;
+  }
+  .feature-img {
+    margin-top: 5rem;
   }
   .feature-img--item {
     width: 45%;

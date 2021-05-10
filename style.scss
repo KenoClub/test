@@ -356,6 +356,7 @@ a {
   .feature {
     height: 38rem;
     &__info {
+      margin-top: 2.5rem;
       &-title {
         font-size: 2.2rem;
         width: 100%;
@@ -366,6 +367,7 @@ a {
       }
     }
     &-img {
+      margin-top: 5rem;
       &--item {
         width: 45%;
         height: 26.4rem;
