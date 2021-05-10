@@ -40,8 +40,8 @@ a {
   &::before {
     content: '';
     position: absolute;
-    height: 25000px;
-    width: 25000px;
+    height: 20000px;
+    width: 20000px;
     top: 70%;
     left: 50%;
     transform: translateX(-50%);
@@ -203,7 +203,7 @@ a {
 }
 
 .feature {
-  margin-top: 8rem;
+  margin-top: 12rem;
   text-align: center;
   height: 70rem;
   overflow: hidden;
@@ -214,8 +214,8 @@ a {
     rgb(255, 255, 255) 100%
   );
   &__info {
-    line-height: 1.2;
     &-title {
+      line-height: 1.2;
       margin: 0 auto;
       width: 50%;
       font-size: 4rem;
@@ -223,8 +223,9 @@ a {
       color: $text-color;
     }
     &-desc {
+      line-height: 1.6;
       margin: 0 auto;
-      width: 70%;
+      width: 50%;
       font-size: 2rem;
       margin-top: 1rem;
     }
